@@ -1,11 +1,17 @@
 Yusuf Hamza Özçelik
+
 200201112
+
 İnternet Programcılığı Proje Ödevi
+
 Tarih:16.01.2021
+
 Önemli NOT:HOCAM lütfen bu linke tıklayarak videoyu izlermisiniz
+
 -->https://yadi.sk/i/pO08EgQYHPpIAA
 
 Yii2 KÜTÜPHANE MODÜLÜ
+
 
 Ben proje ödevimde bir kütüphane modülü tasarladım. Bu modül ile kütüphaneye yeni üyeler kayıt
 edebiliyoruz.Ayrıca kitap kiralayabiliyoruz.Bunları size görsellerle anlatmaya çalışacağım.
@@ -74,11 +80,17 @@ Aynı şekilde kayıt ekleme modülünde olduğu gibi bu modüldede kiralamalar�
 Ödevimde Migrations,Controllers,Helpers,ActiveRecord,Widgets,Models,tabloların arasında bir ilişki kullandım.
 
 Migration->https://yadi.sk/i/oQjes29XaPmsLQ
+
 Controllers-->https://yadi.sk/i/oQjes29XaPmsLQ
+
 Helpers->https://yadi.sk/i/QepexiPsV_hAbw
+
 ActiveRecord->https://yadi.sk/i/L0f__Iccy7gAHg
+
 Widgets->https://yadi.sk/i/NVPYZcOCiSXkRQ
+
 Models->https://yadi.sk/i/oQjes29XaPmsLQ
+
 Tablolar arasındaki ilişki-->https://yadi.sk/i/v_JLrWfxHolEqQ
 
 
