@@ -18,80 +18,93 @@ edebiliyoruz.Ayrıca kitap kiralayabiliyoruz.Bunları size görsellerle anlatmay
 
 Öncelikle bu modülü çalıştırabilmeniz için vagrantın , virtualbox ve yii frameworkunun bilgisayarınızda kurulu olduğunu
 varsayıyorum.Ben bu projemde ide olarak visual studio code kullandım.Projemizin dosyasına gelip yukarıdan cmd ekranını açıyoruz.
-Consola buradaki görseldeki gibi "code ." yazıyoruz ve entere basıyoruz.-->
-https://yadi.sk/i/e9A-1KLtMFsTjA
+Consola buradaki görseldeki gibi "code ." yazıyoruz ve entere basıyoruz.
+-->![Alt text](https://i.hizliresim.com/UUHxHS.png)
 
 Artık kodumuzu ide de kullanıbiliriz. Visual studio code'dan yeni bir terminal açıp vagrantı ayağa kaldırıyoruz.
-Görselde ki komutları yazmalıyız -->
-https://yadi.sk/i/J2HbMD1Dmr1itA
+Görselde ki komutları yazmalıyız 
+-->![Alt text](https://i.hizliresim.com/kl3exi.png)
+
 
 Makinamız ayağa kalktıktan sonra yii advanced modülünü nereye kurduysak onu çalıştırmamız gerekiyor.
 Bunun için terminala yazacağımız komut görseldeki gibidir.
--->https://yadi.sk/i/YazYglEPpsdxCQ
+-->![Alt text](https://i.hizliresim.com/g2uRC6.png)
 Not: Buradaki webOrgun benim vagrant makinamın adı. vagrant@"advanced" deki advanced ise benim yiinin yüklü olduğu 
 klasörümün adı Sizde bu değişiklik gösterebilir. 
 
 Şimdi makinamız ayağa kalktı. Modulumuzu indirebilmek için packagistde yüklemiş olduğum projeyi indirmeniz gerekiyor.
 Bunu yapmak da çok basit. Yapmanız gereken tek şey terminale görseldeki kodu yazmanız gerecektir.
--->https://yadi.sk/i/Ui5A9TBdea70Zg
+-->![Alt text](https://i.hizliresim.com/vFrbCk.png)
 
 
 Artık modülümüz kendi bilgisayarımıza inmiş oldu.Kontrol etmek için vendorun altındaki klasörden bakabilirsiniz 
-Görselden bakabilirsiniz.-->https://yadi.sk/i/oQjes29XaPmsLQ
+Görselden bakabilirsiniz.-->
 
-Bu adımdan sonra projeye her yerden erişebilmek için. Advanced klasörümün altında(sizde yii nerede yüklüyse) backendin altında
-config/main.php dosyasına gidip görseldeki kodu yapıştırmanız gerekir.
--->https://yadi.sk/i/6lGYatyqqcLhjA
-
+![Alt text](https://i.hizliresim.com/FqQBZg.png)
 
 Projemdeki klasör yapısı yukarıdaki görseldeki gibidir. Src klasörünün altında migrationumu oluşturdum.
 
+Bu adımdan sonra projeye her yerden erişebilmek için. Advanced klasörümün altında(sizde yii nerede yüklüyse) backendin altında
+config/main.php dosyasına gidip görseldeki kodu yapıştırmanız gerekir.
+-->![Alt text](https://i.hizliresim.com/IhqYeD.png)
+
+
 Models klasörünün altındaki kayıt tablosu için form ekranında kayıtlar boş bırakılmasın diye 
 görseldeki kodu yazdım.Aynı şekilde kirala tablosu içinde yaptım.
- -->https://yadi.sk/i/A55i1rzjiH8Yag
+ -->![Alt text](https://i.hizliresim.com/9iXEXX.png)
 
 
 
 Şimdi modülümüzü görelim.Görebilmek için tarayıcımızın url kısmına http://advanced/backend/web/index.php?r=library/default
 yazmalısınız.Karşımıza böyle bir ekran çıkacak. -->
-https://yadi.sk/i/cGocQvAefucmPg
+![Alt text](https://i.hizliresim.com/Zr60VN.png)
 
 Burada karşımıza çıkan 2 butondan kayıt olmaya git dersek bizi kayıt olma sayfasına gönderir.
---> https://yadi.sk/i/JMzmKy69G8Suzg
+--> ![Alt text](https://i.hizliresim.com/UpBjop.png)
 
 Dilersek yeni kayıt ekleyebiliriz.Bunun için yeni kayıt oluştur butonunua basmalıyız
---> https://yadi.sk/i/HBAgZ2lq7qXnpA
+--> ![Alt text](https://i.hizliresim.com/lsbFSk.png)
 
 Kayıdımızı daha sonra düzenlemek için kayıt ekranından kişilerin yanındaki kalem iconuna basarak düzenleyebiliriz.
---> https://yadi.sk/i/-BUNg69OR2tcFg
-
+-->![Alt text](https://i.hizliresim.com/FcON2K.png)
 Modlümüzün bir kolaylığıda yukarıda bulunan ekmek kırıntısı yoluyla en başa tekrar dönüp.Kitap kiralama sayfasına kolayca
 erişebiliyoruz.Ana sayfamıza geri dönüp kitap kiralamaya git diyelim.
---> https://yadi.sk/i/qnlRkLBG1RIYNg
+-->![Alt text](https://i.hizliresim.com/MgHVvi.png)
 
 Dilersek başka bir öğrenci kitap kiralayabilir. Bunun için Kitap kirala butonuna basmalıyız.Buradan görseli inceleyebilirsiniz.
---> https://yadi.sk/i/-C6wHhwHWOGHNg
+-->![Alt text](https://i.hizliresim.com/JvQfxp.png)
 
 Aynı şekilde kayıt ekleme modülünde olduğu gibi bu modüldede kiralamaları düzenleyebilirsiniz.Görseldeki butonlara tıklayarak.
---> https://yadi.sk/i/f0uhSj2UA196Ew
+--> ![Alt text](https://i.hizliresim.com/uBsuTl.png)
 
 
 
 Ödevimde Migrations,Controllers,Helpers,ActiveRecord,Widgets,Models,tabloların arasında bir ilişki kullandım.
 
-Migration->https://yadi.sk/i/oQjes29XaPmsLQ
+Migrations,Models ve Controllers-->
 
-Controllers-->https://yadi.sk/i/oQjes29XaPmsLQ
+![Alt text](https://i.hizliresim.com/FqQBZg.png)
 
-Helpers->https://yadi.sk/i/QepexiPsV_hAbw
 
-ActiveRecord->https://yadi.sk/i/L0f__Iccy7gAHg
 
-Widgets->https://yadi.sk/i/NVPYZcOCiSXkRQ
+Helpers-->
+![Alt text](https://i.hizliresim.com/EV7POs.png)
 
-Models->https://yadi.sk/i/oQjes29XaPmsLQ
 
-Tablolar arasındaki ilişki-->https://yadi.sk/i/v_JLrWfxHolEqQ
+ActiveRecord-->
+
+![Alt text](https://i.hizliresim.com/7yvY3T.png)
+
+
+Widgets-->
+
+![Alt text](https://i.hizliresim.com/T3ESAT.png)
+
+
+
+Tablolar arasındaki ilişki-->
+
+![Alt text](https://i.hizliresim.com/Aga2Mu.png)
 
 
 Not:Hocam ödevi yaparken en az 30 tane hatayla karşılaştım.Çok fazla vakit kaybettim hatalar yüzünden.3 kere vagrant silip tekrar kurdum.
